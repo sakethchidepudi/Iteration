@@ -15,9 +15,9 @@ namespace Iteration_Statements
                 {
                     Console.WriteLine("Executing a For Loop!");
                     Console.WriteLine("The For Loop will iterate " + input.ToString() + " times.");
-                    for (int i = 0; i < input; i++)
+                    for (int i = 0; i <= input; i++)
                     {
-                        Console.WriteLine("You have i years of experience: " + i.ToString());
+                        Console.WriteLine("You have "+ i.ToString() + " years of experience");
                     }
                 }
                 else
